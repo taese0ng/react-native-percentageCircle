@@ -1,0 +1,12 @@
+{
+  "name": "PercentageCircle",
+  "displayName": "PercentageCircle",
+  "expo": {
+    "name": "PercentageCircle",
+    "slug": "PercentageCircle",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
