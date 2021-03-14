@@ -1,10 +1,13 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, {useState} from 'react';
+import { StyleSheet, View } from 'react-native';
+import PercentageCircle from "./src/Components/PercentageCircle";
 
 export default function App() {
+  const [percentage] = useState(80);
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <PercentageCircle size={200} percentage={percentage} borderWidth={15}/>
     </View>
   );
 }
